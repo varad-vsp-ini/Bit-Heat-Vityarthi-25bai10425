@@ -10,6 +10,9 @@ This program exactly calculates this Landauer's minimum heat for a given logic g
 
 The Bit-Heat program is rather a fun playground to test new logic gates in hope to fundamentally break the Landauer's limit rather than just a calculation program. It processes custom gates and simualtes logic according to truth table.
 
+# Requirements
+Python version 3.14, just execute the .py file
+
 # Working Principles
 ## The program utilizes 2 libraries
 1. pandas: To simplify the work of calculating output frequencies from truth table using pandas `value_count()` method
