@@ -7,8 +7,10 @@ Landauer's principle is a physical principle pertaining to a lower theoretical l
 
 This program exactly calculates this Landauer's minimum heat for a given logic gate which is taken as input and using the Landauer's formula and Shanon Entropy formula.
 
-Landauer's minimum heat formula: Q = kb.T.ln(2). ΔH 
-$$Q_{\text{min}} = k_b \cdot T \cdot \ln(2) \cdot \Delta H
+Landauer's minimum heat formula:
+$$
+Q_{\min} = k_B \, T \, \ln(2) \, \DeltaH
+$$
 Shanon Entropy = ΔH = Hinitial - Hfinal = H(X) = summation of(p(x) log(p(x))) 
 
 The Q_min yielded by the program is actually the minimum heat required for computation or to put it in other way, for irreversible logic gates like AND, the output is less than the input so the entropy dissipitated to the surrounding to erase that bit is compensated by heat.
